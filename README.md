@@ -26,4 +26,4 @@ El reto consiste en construir una calculadora de edad que tome una fecha de naci
 
 ## Demo
 
-Aquí puedes ver una [demo del proyecto en vivo](link-a-la-demo).
+Aquí puedes ver una [demo del proyecto en vivo](https://frontendementor-age-calculator.netlify.app/).
