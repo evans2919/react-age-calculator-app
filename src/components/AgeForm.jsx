@@ -190,10 +190,10 @@ const AgeForm = ({ changeAge }) => {
                         )}
                     </div>
                 </div>
-                <div className="flex justify-center mt-10 pt-8 items-center md:h-0 md:pt-5 md:mt-5 md:mb-10">
+                <div className="flex justify-center mt-10 pt-8 items-center md:h-0 md:pt-4 md:mt-4 md:mb-8">
                     <div className="w-full flex flex-col items-center md:h-0">
                         <hr className="border border-gray-200 w-full" />
-                        <div className="rounded-full  bg-[#854dff] hover:bg-gray-800 relative bottom-[40px] transition-all duration-300 md:left-[330px]">
+                        <div className="rounded-full  bg-[#854dff] hover:bg-gray-800 relative bottom-[52px] transition-all duration-300 md:left-[310px] md:p-3">
                             <button className="block w-full p-5">
                                 <img
                                     src="/img/icon-arrow.svg"
