@@ -13,8 +13,8 @@ const AgeForm = ({ changeAge }) => {
     const [error, setError] = useState("");
 
     const customClass = {
-        label: "uppercase text-gray-500 font-bold text-sm tracking-[0.2em]",
-        input: "p-4 border border-gray-400 text-gray-900 rounded-md font-bold text-xl md:text-[32px] w-full outline-none focus:border-[#854dff] transition-all duration-300 mt-2 md:w-[130px] md:p-3",
+        label: "uppercase text-gray-500 font-bold text-sm tracking-[0.2em] md:text-base",
+        input: "p-4 border border-gray-300 text-gray-900 rounded-md font-bold text-xl md:text-[32px] w-full outline-none focus:border-[#854dff] transition-all duration-300 mt-2 md:w-[180px] md:p-3 cursor-pointer",
         error: "italic text-xs text-red-500 mt-2",
     };
 
@@ -190,10 +190,10 @@ const AgeForm = ({ changeAge }) => {
                         )}
                     </div>
                 </div>
-                <div className="flex justify-center mt-10 pt-8 items-center">
-                    <div className="w-full flex flex-col items-center">
+                <div className="flex justify-center mt-10 pt-8 items-center md:h-0 md:pt-5 md:mt-5 md:mb-10">
+                    <div className="w-full flex flex-col items-center md:h-0">
                         <hr className="border border-gray-200 w-full" />
-                        <div className="rounded-full  bg-[#854dff] hover:bg-gray-800 relative bottom-[40px] transition-all duration-300 md:left-[240px]">
+                        <div className="rounded-full  bg-[#854dff] hover:bg-gray-800 relative bottom-[40px] transition-all duration-300 md:left-[330px]">
                             <button className="block w-full p-5">
                                 <img
                                     src="/img/icon-arrow.svg"

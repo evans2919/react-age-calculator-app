@@ -14,16 +14,15 @@ const App = () => {
     const { day, month, year } = age;
 
     const customClass = {
-        h1: "text-[#854dff] text-5xl italic md:text-[85px] font-extrabold",
+        h1: "text-[#854dff] text-5xl italic md:text-[100px] font-extrabold",
         bold: "text-gray-800 italic font-extrabold",
     };
     return (
         <>
-            <div className="bg-gray-200 h-screen px-5 pt-[100px] md:pt-0 md:flex md:items-center md:justify-center">
-          <div className="bg-gray-50 rounded-2xl py-12 px-6 md:px-12 rounded-br-[12rem] md:w-[650px]">
-            
-            <AgeForm changeAge={changeAge} />
-            
+            <div className="bg-[#f0f0f0] h-screen px-5 pt-[100px] md:pt-0 md:flex md:items-center md:justify-center">
+                <div className="bg-white rounded-2xl py-12 px-6 md:px-12 rounded-br-[12rem] md:w-[800px]">
+                    <AgeForm changeAge={changeAge} />
+
                     <div>
                         <h1 className={customClass.h1}>
                             {year} <b className={customClass.bold}>years</b>
